@@ -1,0 +1,25 @@
+{
+  "name": "nudge",
+  "private": true,
+  "description": "Email-first reminders, dogfooding Resend end to end",
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "dev:turbo": "next dev -p 3002 --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-email/components": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "resend": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
